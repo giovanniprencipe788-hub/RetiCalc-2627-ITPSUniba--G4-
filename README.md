@@ -3,7 +3,7 @@
 ## Informazioni generali
 - Gruppo: G4
 - Sistema operativo: Windows
-- Ambiente di sviluppo: Eclipse CDT
+- Ambiente di sviluppo: Eclipse CDT (MinGW-w64 / Winsock ws2_32)
 
 ## Struttura dei progetti
 - serverTCP_G4: progetto Eclipse del server TCP( resta in ascolto, accetta connessioni, stampa l'IP del client, invia "connessione avvenuta", riceve n1, n2, n3, calcola n1+n2-n3, stampa "la somma di n1+n2-n3=res" e invia "QUIT" se il risultato è 100, altrimenti il risultato).
